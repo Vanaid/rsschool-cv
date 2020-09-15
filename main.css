@@ -13,6 +13,10 @@ main {
 	line-height: 1.5rem;
 }
 
+img {
+	max-width: 150px;
+}
+
 span {
 	font-weight: bold;
 }
