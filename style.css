@@ -1,0 +1,388 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4.8px;
+    margin-bottom: 1.4rem;
+    margin-left: 10px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #373737;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    color: #373737;
+    line-height: 1.25rem;
+    letter-spacing: 2.4px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+}
+h3::before {
+    content: url(assets/userpic.png);
+    display: block;
+    margin: 0 auto 0.9rem;
+}
+
+
+
+.header {
+    background: url(assets/bg-image.png) no-repeat top left;
+    background-size: cover;
+
+}
+
+header nav {
+    max-width: 42.5%;
+    margin: 0 auto;
+    font-size: 0.875rem;   
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px 0px;
+    margin: 0px;
+
+}
+header nav ul li {
+    padding: 0 1em 1em;
+    display: block;
+    
+}
+header nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover, .active {
+    display: inline;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.main-your_life {
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.main-your_life p {
+    width: 31.5%;
+    font-size: 1.125rem;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 2.6rem;
+}
+
+.btn {
+    background: #00AFDB;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #009CC2;
+}
+
+.main_icons {
+    width: 10.6%;
+    margin: 12.2rem auto 0;
+    text-align: center;
+    padding-bottom: 5.5rem; 
+}
+
+.main_icons div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Main */
+
+/* Section main-rappresent */
+.main-rappresent {
+    display: flex;
+    justify-content: space-around;
+}
+.main-rappresent h2 {
+    margin-bottom: 1.5rem;
+}
+
+.main-rappresent div {
+    width: 25.43%;
+    margin: 7.5rem 0 8.4rem;
+}
+
+.main-rappresent div:first-of-type {
+    margin-left: 145px;
+    margin-top: 275px;
+}
+.main-rappresent div:last-of-type {
+    margin-right: 9rem;
+}
+.main-rappresent div p {
+    margin-bottom: 2.8rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+/* Section main-community */
+.main-community {
+    background: #F5F6F7;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 8.7rem;
+}
+.main-community .main-community_text_block {
+    width: 18.63%;
+    margin-left: 270px;
+    margin-top: 141px;
+    text-align: center;
+}
+.main-community div p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.main-community .main-community_slider {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 55.875%;
+    margin-top: 80px;
+    margin-left: 130px;
+    
+}
+
+.main-community .main-community_slider p {
+    font-size: 1.125rem;
+    color: #373737;
+    white-space: pre;
+    margin-left: 17rem;
+    margin-bottom: 15px;
+}
+.main-community .main-community_slider p::before {
+    content: url(assets/arrow-left.png);
+    cursor: pointer;
+    
+}
+.main-community .main-community_slider p::after {
+    content: url(assets/arrow-right.png);
+    cursor: pointer;
+}
+
+.main-community .main-community_slider .main-community_slider_block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 26.5rem;
+    overflow: hidden;
+}
+
+.main-community 
+.main-community_slider 
+.main-community_slider_block img {
+    width: 407px;
+    margin-right: 2rem;
+}
+
+
+/* Section main-implement */
+.main-implement {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 115px;
+}
+.main-implement img, .main-implement div {
+    width: 25.43%;
+}
+.main-implement img {
+    margin-top: 121px;
+    margin-left: 270px;
+    margin-right: 140px;
+}
+
+.main-implement div {
+    margin-top: 300px;
+}
+.main-implement div p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 43px;
+}
+
+
+/* Section main-sign_up */
+.main-sign_up {
+    background: url(assets/pexels-christina-morillo-1181675\ 1.jpg) no-repeat top left;
+    opacity: 60%;
+    text-align: center;
+}
+
+.main-sign_up p {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 202px;
+    margin-bottom: 30px;
+}
+
+.main-sign_up .form {
+    max-width: 406px;
+    margin: 0 auto;
+    padding-bottom: 220px;
+}
+.main-sign_up form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+.main-sign_up form input {
+    outline: none;
+    border: none;
+    font-size: 0.875rem;
+}
+.main-sign_up form input[type="email"] {
+    line-height: 1.4rem;
+    padding: 0.8rem 1.4rem;
+    width: 83.70%;
+}
+.main-sign_up form input[type="email"]:active {
+    color: #373737;
+}
+.main-sign_up form input[type="submit"] {
+    width: 18%;
+    background: #00AFDB url(assets/check-icon.png) no-repeat center;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.main-sign_up form input[type="submit"]:hover {
+    background: #009CC2 url(assets/check-icon.png) no-repeat center;
+}
+
+/*Section main-download */
+.main-download {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 100px 0 195px;
+}
+.main-download div {
+    max-width: 480px;
+    text-align: center;
+}
+.main-download div p {
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+.main-download .icons {
+    margin-left: 3px;
+}
+.main-download div a {
+    position: relative;
+}
+.main-download div a span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 59px;
+}
+.main-download div a:first-of-type span {
+    background: #009CC2 url(assets/icon-apple.png) no-repeat center;
+}
+.main-download div a:last-of-type span {
+    background: #009CC2 url(assets/icon-android.png) no-repeat center;
+}
+
+.main-download div:last-of-type {
+    margin-top: 30px;
+}
+.main-download .icons a:first-of-type {
+    margin-right: 29px;
+}
+.main-download .icons .btn {
+    padding: 1rem 4.7rem 0.9rem 1.2rem;
+}
+
+
+/* Footer */
+footer {
+    background: #000;
+    padding: 3.8rem 0 5rem;
+}
+.footer {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin: 0 auto;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    width: 235px;
+    padding: 0px;
+}
+.footer ul li {
+    position: relative;
+}
+.footer ul .divider::after {
+    content: url(assets/mnu-items-divider.png);
+    padding-left: 20px;
+    position: absolute;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer img {
+    margin-right: 65px;;
+}
+
+.footer p {
+    color: #818181;
+    font-size: 0.875rem;
+    
+}
