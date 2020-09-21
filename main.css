@@ -1,0 +1,46 @@
+body, p, div, ul, ol, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #dadedf;
+}
+
+main {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+img {
+	max-width: 150px;
+}
+
+span {
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+ul, ol {
+	list-style-position: inside;
+}
+li {
+	text-indent: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #393ed3;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #863c65;
+}
